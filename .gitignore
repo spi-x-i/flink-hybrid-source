@@ -1,2 +1,11 @@
 *.class
 *.log
+
+.idea/
+.bsp/
+target/
+project/target/
+project/boot/
+project/plugins/project/
+
+.DS_Store
