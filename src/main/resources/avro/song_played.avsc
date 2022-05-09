@@ -1,0 +1,29 @@
+{
+  "name": "SongPlayed",
+  "type": "record",
+  "namespace": "org.spixi.hybrid",
+  "fields": [
+    {
+      "name": "uuid",
+      "type": {
+        "type": "string",
+        "logicalType": "uuid"
+      }
+    },
+    {
+      "name": "username",
+      "type": "string"
+    },
+    {
+      "name": "song_played",
+      "type": "string"
+    },
+    {
+      "name": "notifiedAt",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    }
+  ]
+}
