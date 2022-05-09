@@ -1,0 +1,699 @@
+{
+  "type": "record",
+  "name": "FinalConverter_OutputGroup1_Schema",
+  "namespace": "io.radicalbit",
+  "fields": [
+    {
+      "name": "eventType",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "clientIdCusRetailer",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "sessionFlag",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "dateImage",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ]
+    },
+    {
+      "name": "enabledFakeReport",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "fakeReportCreatedAt",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ]
+    },
+    {
+      "name": "storeId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "clientTracedRetailer",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "associatedCertId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "clientRetailerDesc",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "storeName",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "storeCountry",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "authenticationLabel",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "countryCode",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "currency",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "deleted",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "serviceId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "pageCertificate",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "ownership",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "channel",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "userIdCertificate",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "serviceMediaTagTypeDescription",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "geolocationIdx",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "clientIdRetailer",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "userId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "type",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "primaryBrandId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "serialNumber",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "subUserLanguage",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "reason",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "clientSellingCountryId",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "serviceIdMedia",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "bought",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "storeAddress",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "origin",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "orderProdSeasonId",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "storeUrl",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "certificateCreatedAt",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ]
+    },
+    {
+      "name": "price",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "whitelist",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "userLanguage",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "primaryBrandName",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "uploadedImage",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "statusAuth",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "ownershipTaxonomy",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "newKey",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "countryName",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "statusFakeReport",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "channelTaxonomy",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "network",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "response",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "brandName",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "storeCity",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "storeCountryName",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "brandId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "clientDataId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "licenseeId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "eventId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "authenticationCreatedAt",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ]
+    },
+    {
+      "name": "legitimate",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "storeIsOnline",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "licenseeName",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "orderCusDescr",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "authenticationLastUpdateAt",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ]
+    },
+    {
+      "name": "statusCertificate",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "typeImage",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "orderProdId",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "consumerKey",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "codesKey",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "codesSerialNumber",
+      "type": [
+        "null",
+        {
+          "type": "bytes",
+          "logicalType": "decimal",
+          "precision": 64,
+          "scale": 0
+        }
+      ]
+    },
+    {
+      "name": "codesStatusCloned",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ]
+    },
+    {
+      "name": "codesStatus16",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "codesStatus32",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "codesStatus64",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "codesStatusGenerated",
+      "type": [
+        "null",
+        {
+          "type": "long",
+          "logicalType": "timestamp-millis"
+        }
+      ]
+    },
+    {
+      "name": "codesStatusTaxonomy",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "certilogoCode",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "dateString",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}
