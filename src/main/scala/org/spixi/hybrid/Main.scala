@@ -4,7 +4,6 @@ import org.apache.flink.streaming.api.scala._
 import org.slf4j.{Logger, LoggerFactory}
 import org.spixi.hybrid.configuration.{Config, RunModes}
 import org.spixi.hybrid.jobs.{SongPlayedGeneratorJob, SongToMinioJob}
-
 import java.time.Clock
 
 object Main extends App {

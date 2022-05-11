@@ -1,0 +1,157 @@
+{
+  "type": "record",
+  "name": "default",
+  "fields": [
+    {
+      "name": "_id",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "authentication",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null
+    },
+    {
+      "name": "date",
+      "type": [
+        "null",
+        "long"
+      ],
+      "default": null
+    },
+    {
+      "name": "geolocation",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "geolocation",
+          "fields": [
+            {
+              "name": "countryCode",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ],
+          "connect.name": "geolocation"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "info",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "info",
+          "fields": [
+            {
+              "name": "primaryBrandId",
+              "type": [
+                "null",
+                "int"
+              ],
+              "default": null
+            },
+            {
+              "name": "primaryBrandName",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ],
+          "connect.name": "info"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "payload",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "payload",
+          "fields": [
+            {
+              "name": "channel",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ],
+          "connect.name": "payload"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "updatedAt",
+      "type": [
+        "null",
+        "long"
+      ],
+      "default": null
+    },
+    {
+      "name": "user",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "user",
+          "fields": [
+            {
+              "name": "id",
+              "type": [
+                "null",
+                "string"
+              ],
+              "default": null
+            }
+          ],
+          "connect.name": "user"
+        }
+      ],
+      "default": null
+    },
+    {
+      "name": "validation",
+      "type": [
+        "null",
+        {
+          "type": "record",
+          "name": "validation",
+          "fields": [
+            {
+              "name": "id",
+              "type": [
+                "null",
+                "int"
+              ],
+              "default": null
+            }
+          ],
+          "connect.name": "validation"
+        }
+      ],
+      "default": null
+    }
+  ],
+  "connect.name": "default"
+}

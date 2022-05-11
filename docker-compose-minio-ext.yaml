@@ -62,7 +62,7 @@ services:
       - minio3
       - minio4
 
-## By default this config uses default local driver,
+## By org.spixi.hybrid.models.default this config uses org.spixi.hybrid.models.default local driver,
 ## For custom volumes replace with volume driver configuration.
 volumes:
   data1-1:
